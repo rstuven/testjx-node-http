@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.11.249.255:5000/rstuven/testjx-node-http
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: testjx-node-http
